@@ -6,57 +6,30 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>SinteFut</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="canchas.css">
+    <link rel="stylesheet" href="/css/canchas.css">
     <script src="https://kit.fontawesome.com/99021fb06b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #1690a0;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="main.html">
-                    <img class="logoMenu" src="img/logo central.jpg" alt=""  width="40">
-                    Sintefut
-                </a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="main.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Reservas</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="canchas.html">Canchas</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="login.html">Registro</a>
-                      </li>
-                      
-                      <div class="barra"></div>
-                      <!-- <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                      </li>-->
-                    </ul>
-                  </div>
-    
-    
-              <form class="d-flex">
-                <input class="form-control me-2" id="elementoClicable" type="search" placeholder="¿Que deseas buscar hoy? " aria-label="Search">
-                <button class="btn btn-dark" type="submit">Buscar</button>
-              </form>
-    
-              
-    
+  <header>
+    <div class="top-bar">
+        <nav class="nav">
+            <div class="icon-top">
+                <a href="/index.html" class="logo nav-link" ><img src="./css/img/entrada-de-balon-de-futbol-centrada-en-arco.png" alt=""></a>
+            </div>
+            <div class="nav-bar">
+
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="./index.html" class="nav-menu-link nav-link">Home</a></li>
+                    <li class="nav-menu-item"><a href="#contacto" class="nav-menu-link nav-link">Contacto</a></li>
+                    <li class="nav-menu-item"><a href="./html/quienes_somos.html" class="nav-menu-link nav-link">Quienes somos</a></li>
+                    <li class="nav-menu-item"><a href="/templates/canchas.html" class="nav-menu-link nav-link">Reservar</a></li>
+                    <li class="nav-menu-item"><a href="./html/login.html" class="nav-menu-link nav-link">Iniciar sesion</a></li>
+                </ul>
             </div>
         </nav>
-    </header>
+    </div>
+</header>
+
     <main>
         
         <div class="canchasRec">
@@ -163,19 +136,19 @@
 
     <script src="main.js"></script>
     <footer>
-        <div id="footer">
-            <section id="parte1">
-                <h3><b>Síguenos</b></h3>
-                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
-                
-                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
-                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
-                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
-            </section>
-            
+        <div class="footer-content">
+            <div class="contact-info" id="contacto">
+                <h3>Contacto</h3>
+                <p>Teléfono: +57 300 741 6380</p>
             </div>
-        <div id="footer2">
-            <small>&copy; 2023  - Todos los Derechos Reservados.</small>
+            <div class="social-media">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#"><img src="./css/img/facebook-svgrepo-com (1).svg" alt=""></a></li>
+                    <li><a href="#"><img src="./css/img/twitter-svgrepo-com (1).svg" alt=""></a></li>
+                    <li><a href="#"><img src="./css/img/instagram-svgrepo-com.svg" alt=""></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     
